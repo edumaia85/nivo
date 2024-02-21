@@ -1,73 +1,448 @@
 {
-  "tags" : [
-    {"title": "React", "amountOfVideos": "100"},
-    {"title": "Angular", "amountOfVideos": "80"},
-    {"title": "Vue.js", "amountOfVideos": "70"},
-    {"title": "Node.js", "amountOfVideos": "90"},
-    {"title": "Django", "amountOfVideos": "60"},
-    {"title": "Flask", "amountOfVideos": "50"},
-    {"title": "Express.js", "amountOfVideos": "75"},
-    {"title": "Spring Boot", "amountOfVideos": "85"},
-    {"title": "Laravel", "amountOfVideos": "65"},
-    {"title": "Ruby on Rails", "amountOfVideos": "55"},
-    {"title": "jQuery", "amountOfVideos": "45"},
-    {"title": "Ember.js", "amountOfVideos": "40"},
-    {"title": "Backbone.js", "amountOfVideos": "35"},
-    {"title": "Meteor.js", "amountOfVideos": "30"},
-    {"title": "Symfony", "amountOfVideos": "25"},
-    {"title": "ASP.NET", "amountOfVideos": "20"},
-    {"title": "Flask", "amountOfVideos": "15"},
-    {"title": "Express.js", "amountOfVideos": "10"},
-    {"title": "Ruby on Rails", "amountOfVideos": "5"},
-    {"title": "Spring Boot", "amountOfVideos": "3"},
-    {"title": "Laravel", "amountOfVideos": "2"},
-    {"title": "React Native", "amountOfVideos": "90"},
-    {"title": "Ionic", "amountOfVideos": "80"},
-    {"title": "Flutter", "amountOfVideos": "70"},
-    {"title": "Xamarin", "amountOfVideos": "60"},
-    {"title": "PhoneGap", "amountOfVideos": "50"},
-    {"title": "Cordova", "amountOfVideos": "40"},
-    {"title": "NativeScript", "amountOfVideos": "30"},
-    {"title": "Titanium", "amountOfVideos": "20"},
-    {"title": "Appcelerator", "amountOfVideos": "10"},
-    {"title": "Sencha Touch", "amountOfVideos": "5"},
-    {"title": "jQuery Mobile", "amountOfVideos": "3"},
-    {"title": "Aurelia", "amountOfVideos": "2"},
-    {"title": "Svelte", "amountOfVideos": "90"},
-    {"title": "Next.js", "amountOfVideos": "80"},
-    {"title": "Nuxt.js", "amountOfVideos": "70"},
-    {"title": "Gatsby", "amountOfVideos": "60"},
-    {"title": "Sapper", "amountOfVideos": "50"},
-    {"title": "Hugo", "amountOfVideos": "40"},
-    {"title": "Jekyll", "amountOfVideos": "30"},
-    {"title": "Gridsome", "amountOfVideos": "20"},
-    {"title": "Pelican", "amountOfVideos": "10"},
-    {"title": "Vuepress", "amountOfVideos": "5"},
-    {"title": "Hexo", "amountOfVideos": "3"},
-    {"title": "Docusaurus", "amountOfVideos": "2"},
-    {"title": "Bootstrap", "amountOfVideos": "90"},
-    {"title": "Materialize", "amountOfVideos": "80"},
-    {"title": "Foundation", "amountOfVideos": "70"},
-    {"title": "Bulma", "amountOfVideos": "60"},
-    {"title": "Tailwind CSS", "amountOfVideos": "50"},
-    {"title": "Semantic UI", "amountOfVideos": "40"},
-    {"title": "UIKit", "amountOfVideos": "30"},
-    {"title": "Skeleton", "amountOfVideos": "20"},
-    {"title": "Milligram", "amountOfVideos": "10"},
-    {"title": "Pure.css", "amountOfVideos": "5"},
-    {"title": "Mini.css", "amountOfVideos": "3"},
-    {"title": "Picnic CSS", "amountOfVideos": "2"},
-    {"title": "GraphQL", "amountOfVideos": "90"},
-    {"title": "Apollo GraphQL", "amountOfVideos": "80"},
-    {"title": "Relay", "amountOfVideos": "70"},
-    {"title": "Graphene", "amountOfVideos": "60"},
-    {"title": "Hasura", "amountOfVideos": "50"},
-    {"title": "Prisma", "amountOfVideos": "40"},
-    {"title": "Nexus", "amountOfVideos": "30"},
-    {"title": "Dgraph", "amountOfVideos": "20"},
-    {"title": "PostGraphile", "amountOfVideos": "10"},
-    {"title": "ArangoDB", "amountOfVideos": "5"},
-    {"title": "Neo4j", "amountOfVideos": "3"},
-    {"title": "OrientDB", "amountOfVideos": "2"}
-]
+  "tags": [
+    {
+      "title": "React",
+      "amountOfVideos": "100",
+      "slug": "react",
+      "id": "2120"
+    },
+    {
+      "title": "Angular",
+      "amountOfVideos": "80",
+      "slug": "angular",
+      "id": "fefd"
+    },
+    {
+      "title": "Vue.js",
+      "amountOfVideos": "70",
+      "slug": "vue-js",
+      "id": "9ab1"
+    },
+    {
+      "title": "Node.js",
+      "amountOfVideos": "90",
+      "slug": "node-js",
+      "id": "4531"
+    },
+    {
+      "title": "Django",
+      "amountOfVideos": "60",
+      "slug": "django",
+      "id": "b9b6"
+    },
+    {
+      "title": "Flask",
+      "amountOfVideos": "50",
+      "slug": "flask",
+      "id": "377a"
+    },
+    {
+      "title": "Express.js",
+      "amountOfVideos": "75",
+      "slug": "express-js",
+      "id": "c9b3"
+    },
+    {
+      "title": "Spring Boot",
+      "amountOfVideos": "85",
+      "slug": "spring-boot",
+      "id": "2659"
+    },
+    {
+      "title": "Laravel",
+      "amountOfVideos": "65",
+      "slug": "laravel",
+      "id": "5b19"
+    },
+    {
+      "title": "Ruby on Rails",
+      "amountOfVideos": "55",
+      "slug": "ruby-on-rails",
+      "id": "143f"
+    },
+    {
+      "title": "jQuery",
+      "amountOfVideos": "45",
+      "slug": "jquery",
+      "id": "8b33"
+    },
+    {
+      "title": "Ember.js",
+      "amountOfVideos": "40",
+      "slug": "ember-js",
+      "id": "0e86"
+    },
+    {
+      "title": "Backbone.js",
+      "amountOfVideos": "35",
+      "slug": "backbone-js",
+      "id": "e660"
+    },
+    {
+      "title": "Meteor.js",
+      "amountOfVideos": "30",
+      "slug": "meteor-js",
+      "id": "e608"
+    },
+    {
+      "title": "Symfony",
+      "amountOfVideos": "25",
+      "slug": "symfony",
+      "id": "fd94"
+    },
+    {
+      "title": "ASP.NET",
+      "amountOfVideos": "20",
+      "slug": "asp-net",
+      "id": "9161"
+    },
+    {
+      "title": "Flask",
+      "amountOfVideos": "15",
+      "slug": "flask",
+      "id": "c9b8"
+    },
+    {
+      "title": "Express.js",
+      "amountOfVideos": "10",
+      "slug": "express-js",
+      "id": "2ed3"
+    },
+    {
+      "title": "Ruby on Rails",
+      "amountOfVideos": "5",
+      "slug": "ruby-on-rails",
+      "id": "f2f8"
+    },
+    {
+      "title": "Spring Boot",
+      "amountOfVideos": "3",
+      "slug": "spring-boot",
+      "id": "c465"
+    },
+    {
+      "title": "Laravel",
+      "amountOfVideos": "2",
+      "slug": "laravel",
+      "id": "5cfc"
+    },
+    {
+      "title": "React Native",
+      "amountOfVideos": "90",
+      "slug": "react-native",
+      "id": "d8b3"
+    },
+    {
+      "title": "Ionic",
+      "amountOfVideos": "80",
+      "slug": "ionic",
+      "id": "979e"
+    },
+    {
+      "title": "Flutter",
+      "amountOfVideos": "70",
+      "slug": "flutter",
+      "id": "6d70"
+    },
+    {
+      "title": "Xamarin",
+      "amountOfVideos": "60",
+      "slug": "xamarin",
+      "id": "b966"
+    },
+    {
+      "title": "PhoneGap",
+      "amountOfVideos": "50",
+      "slug": "phonegap",
+      "id": "225f"
+    },
+    {
+      "title": "Cordova",
+      "amountOfVideos": "40",
+      "slug": "cordova",
+      "id": "d30b"
+    },
+    {
+      "title": "NativeScript",
+      "amountOfVideos": "30",
+      "slug": "nativescript",
+      "id": "97a3"
+    },
+    {
+      "title": "Titanium",
+      "amountOfVideos": "20",
+      "slug": "titanium",
+      "id": "0651"
+    },
+    {
+      "title": "Appcelerator",
+      "amountOfVideos": "10",
+      "slug": "appcelerator",
+      "id": "ab72"
+    },
+    {
+      "title": "Sencha Touch",
+      "amountOfVideos": "5",
+      "slug": "sencha-touch",
+      "id": "96d9"
+    },
+    {
+      "title": "jQuery Mobile",
+      "amountOfVideos": "3",
+      "slug": "jquery-mobile",
+      "id": "a272"
+    },
+    {
+      "title": "Aurelia",
+      "amountOfVideos": "2",
+      "slug": "aurelia",
+      "id": "6832"
+    },
+    {
+      "title": "Svelte",
+      "amountOfVideos": "90",
+      "slug": "svelte",
+      "id": "33dd"
+    },
+    {
+      "title": "Next.js",
+      "amountOfVideos": "80",
+      "slug": "next-js",
+      "id": "cb93"
+    },
+    {
+      "title": "Nuxt.js",
+      "amountOfVideos": "70",
+      "slug": "nuxt-js",
+      "id": "3886"
+    },
+    {
+      "title": "Gatsby",
+      "amountOfVideos": "60",
+      "slug": "gatsby",
+      "id": "8b60"
+    },
+    {
+      "title": "Sapper",
+      "amountOfVideos": "50",
+      "slug": "sapper",
+      "id": "aff6"
+    },
+    {
+      "title": "Hugo",
+      "amountOfVideos": "40",
+      "slug": "hugo",
+      "id": "d350"
+    },
+    {
+      "title": "Jekyll",
+      "amountOfVideos": "30",
+      "slug": "jekyll",
+      "id": "4fab"
+    },
+    {
+      "title": "Gridsome",
+      "amountOfVideos": "20",
+      "slug": "gridsome",
+      "id": "b9f9"
+    },
+    {
+      "title": "Pelican",
+      "amountOfVideos": "10",
+      "slug": "pelican",
+      "id": "8d02"
+    },
+    {
+      "title": "Vuepress",
+      "amountOfVideos": "5",
+      "slug": "vuepress",
+      "id": "b3ae"
+    },
+    {
+      "title": "Hexo",
+      "amountOfVideos": "3",
+      "slug": "hexo",
+      "id": "86e7"
+    },
+    {
+      "title": "Docusaurus",
+      "amountOfVideos": "2",
+      "slug": "docusaurus",
+      "id": "8a62"
+    },
+    {
+      "title": "Bootstrap",
+      "amountOfVideos": "90",
+      "slug": "bootstrap",
+      "id": "e196"
+    },
+    {
+      "title": "Materialize",
+      "amountOfVideos": "80",
+      "slug": "materialize",
+      "id": "2ad9"
+    },
+    {
+      "title": "Foundation",
+      "amountOfVideos": "70",
+      "slug": "foundation",
+      "id": "354d"
+    },
+    {
+      "title": "Bulma",
+      "amountOfVideos": "60",
+      "slug": "bulma",
+      "id": "e86c"
+    },
+    {
+      "title": "Tailwind CSS",
+      "amountOfVideos": "50",
+      "slug": "tailwind-css",
+      "id": "7947"
+    },
+    {
+      "title": "Semantic UI",
+      "amountOfVideos": "40",
+      "slug": "semantic-ui",
+      "id": "4a7c"
+    },
+    {
+      "title": "UIKit",
+      "amountOfVideos": "30",
+      "slug": "uikit",
+      "id": "0430"
+    },
+    {
+      "title": "Skeleton",
+      "amountOfVideos": "20",
+      "slug": "skeleton",
+      "id": "5fc4"
+    },
+    {
+      "title": "Milligram",
+      "amountOfVideos": "10",
+      "slug": "milligram",
+      "id": "952b"
+    },
+    {
+      "title": "Pure.css",
+      "amountOfVideos": "5",
+      "slug": "pure-css",
+      "id": "d9fd"
+    },
+    {
+      "title": "Mini.css",
+      "amountOfVideos": "3",
+      "slug": "mini-css",
+      "id": "3d4e"
+    },
+    {
+      "title": "Picnic CSS",
+      "amountOfVideos": "2",
+      "slug": "picnic-css",
+      "id": "8fbd"
+    },
+    {
+      "title": "GraphQL",
+      "amountOfVideos": "90",
+      "slug": "graphql",
+      "id": "f6ef"
+    },
+    {
+      "title": "Apollo GraphQL",
+      "amountOfVideos": "80",
+      "slug": "apollo-graphql",
+      "id": "c072"
+    },
+    {
+      "title": "Relay",
+      "amountOfVideos": "70",
+      "slug": "relay",
+      "id": "2c39"
+    },
+    {
+      "title": "Graphene",
+      "amountOfVideos": "60",
+      "slug": "graphene",
+      "id": "aa3a"
+    },
+    {
+      "title": "Hasura",
+      "amountOfVideos": "50",
+      "slug": "hasura",
+      "id": "d873"
+    },
+    {
+      "title": "Prisma",
+      "amountOfVideos": "40",
+      "slug": "prisma",
+      "id": "31ed"
+    },
+    {
+      "title": "Nexus",
+      "amountOfVideos": "30",
+      "slug": "nexus",
+      "id": "b9f3"
+    },
+    {
+      "title": "Dgraph",
+      "amountOfVideos": "20",
+      "slug": "dgraph",
+      "id": "4d64"
+    },
+    {
+      "title": "PostGraphile",
+      "amountOfVideos": "10",
+      "slug": "postgraphile",
+      "id": "4cc9"
+    },
+    {
+      "title": "ArangoDB",
+      "amountOfVideos": "5",
+      "slug": "arangodb",
+      "id": "59f7"
+    },
+    {
+      "title": "Neo4j",
+      "amountOfVideos": "3",
+      "slug": "neo4j",
+      "id": "5c22"
+    },
+    {
+      "title": "OrientDB",
+      "amountOfVideos": "2",
+      "slug": "orientdb",
+      "id": "678f"
+    },
+    {
+      "id": "0c1c",
+      "title": "Tanstack Query",
+      "amountOfVideos": "0",
+      "slug": "tanstack-query"
+    },
+    {
+      "id": "1b19",
+      "title": "Blazor",
+      "slug": "blazor",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "2592",
+      "title": "Blazor",
+      "slug": "blazor",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "c62d",
+      "title": "Mithril",
+      "slug": "mithril",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "64f7",
+      "title": "Laravel Filament",
+      "slug": "laravel-filament",
+      "amountOfVideos": 0
+    }
+  ]
 }
